@@ -103,9 +103,6 @@ An interactive html based plot for both fuel and stove usage will also be produc
 ![alt text](https://github.com/HeatherMM1321/FUEL-package/blob/master/example_outputs/fuel.PNG) 
 ![alt text](https://github.com/HeatherMM1321/FUEL-package/blob/master/example_outputs/stove_full.PNG) 
 
-## Running the tests
-
-I am going to have to be honest and say I don't know how you would run the tests if you downloaded this as a package and I didnt leave myself time to figure it out. The tests currently run and test all functions in the household.py file with all of the 8 datafiles and pass. There should be a test for every function except for those that only return plots or combine dataframes. **Beware that if you do run the tests, first go into the household.py file and comment out the self.plot_fuel(fuel_usage=True) and the self.plot_stove(cooking_events=True) lines at the bottom of the __init__() function or it will produce plots for every file**
 
 
 ## Authors
